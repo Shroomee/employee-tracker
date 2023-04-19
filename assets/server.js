@@ -16,5 +16,11 @@ const db = mysql.createConnection(
         user: 'root',
         password: 'Dudeomouspop1!',
         database: 'employee_tracker'
-    }
-)
+    },
+    console.log(`Connected to the employee_tracker database.`)
+);
+
+// app.use((req, res) => {
+//     res.status(404).end();
+//   });
+
